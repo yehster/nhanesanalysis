@@ -1,0 +1,28 @@
+{
+    "name": "nhanes",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "yehster",
+    "contributors": [],
+    "dependencies": {
+        "csv-parser": "2.3.2",
+        "vis-data": "6.2.2",
+        "moment": "2.24.0",
+        "keycharm": "0.2.0",
+        "vis-util": "1.1.9",
+        "vis-network": "6.4.0",
+        "node-async-loop": "1.2.2",
+        "request": "2.88.0",
+        "mysql2": "2.0.0",
+        "cheerio": "1.0.0-rc.3"
+    },
+    "scripts": {
+        "start": "node analyze.js"
+    }
+}
